@@ -1,0 +1,161 @@
+body{
+    font-family: "poppins";
+    background-color: hsl(225deg 10% 8%);
+    color: white;
+}
+
+/* ! NavBar */
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(3, 34, 34);
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+}
+
+nav ul a:hover{
+    color: hsl(223deg 14% 20%);
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+/* ! NavBar END */
+
+/* !LinkDecor */
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(9, 255, 0);
+}
+
+a{
+    margin-left: 20px;
+}
+/* !LinkDecor end */
+
+form{
+    padding: 10px;
+}
+
+/* !SendButton */
+form input[type="submit"]{
+    color: black;
+    background-color: hsl(139deg 59% 55%);
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 8px;
+}
+
+form input[type="submit"]:hover{
+    color: white;
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 8px;
+}
+/* !sendButton */
+
+/* !Input feild */
+form input[type="text"]{
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 8px;
+    width: 157px;
+    padding: 0.4em;
+    border: 0;
+    border-radius: 4px;
+    font: inherit;
+    font-weight: 700;
+}
+/* !Input field end */
+
+/* !messageBox */
+textarea{
+    margin-left: 8px;
+    border:1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 8px;
+    width: 157px;
+    padding: 0.4em;
+    border: 0;
+    border-radius: 4px;
+    font: inherit;
+    font-weight: 700;
+}
+/* !messageBox End */
+
+/* !fieldset */
+#Experience{
+    background-color: hsl(223deg 14% 20%);
+    padding: 20px;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+#Experience:hover{
+    background-color: hsl(223deg 14% 20%);
+    padding: 20px;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px red;
+}
+
+
+#skills{
+    background-color: hsl(223deg 14% 20%);
+    padding: 20px;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+#skills:hover{
+    background-color: hsl(223deg 14% 20%);
+    padding: 20px;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px red;
+}
+
+#Contacts{
+    background-color: hsl(223deg 14% 20%);
+    padding: 15px;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+#Contacts:hover{
+    background-color: hsl(223deg 14% 20%);
+    padding: 15px;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px red;
+}
+
+#Message{
+    background-color: hsl(223deg 14% 20%);
+    padding: 15px;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+
+#Message:hover{
+    background-color: hsl(223deg 14% 20%);
+    padding: 15px;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px red;
+}
+/* !Feildset end */
